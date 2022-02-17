@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section>
+    <section id="money_account">
+        <h1 class="text-center">Master Money</h1>
         <div class="container">
             <div class="row">
                 <!-- ##################################
                     img part start
                 ###################################### -->
-                <div class="col-lg-7">
+                <div class="col-lg-7 img_part">
                     <img class="img-fluid w-100" src="images/money.jpg" alt="">
                 </div>
                   <!-- ##################################
@@ -31,19 +32,31 @@
                 <div class="col-lg-5  text-center ">
                     <div class="form_part">
                         
-                        <h3 class="text-center">Income</h3>
-                        <label for="income">Income:</label>
-                        <input type="text" name="income" id="income">
-                        <h3>Expensive</h3>
-                        <label for="food">Food:</label>
-                        <input type="text" name="food" id="food"> <br>
-                        <label for="rent">Rent:</label>
-                        <input type="text" name="rent" id="rent"> <br>
-                        <label for="clothes">Clothes:</label>
-                        <input type="text" name="clothes" id="clothes">
+                        
+                        <div class="text-end input_part">
+                            <h3 class="text-center p-0">Income</h3>
+                        
+                        <div class="input_section">
+                            <label for="income">Income:</label>
+                            <input type="text" name="income" id="income">
+                        </div>
+                        
+                        <h3 class="text-center p-0">Expensive</h3>
+                            <div class="input_section">
+                                <label for="food">Food:</label>
+                                <input type="text" name="food" id="food"> <br>
+                                <label for="rent">Rent:</label>
+                                <input type="text" name="rent" id="rent"> <br>
+                                <label for="clothes">Clothes:</label>
+                                <input type="text" name="clothes" id="clothes">
+                            </div>
+                            
+                           
+                        </div>
+                       
                         <a class="d-block m-auto"   id="calculate_button">Calculate</a>
-                        <h3>Total Expenses: <span id="expenses">00</span> </h3>
-                        <h3>Balance: <span id="balance">00</span></h3>
+                        <h3 class="text-center">Total Expenses: <span id="expenses">00</span> </h3>
+                        <h3 class="text-center">Balance: <span id="balance">00</span></h3>
                         <label for="save">save:</label>
                         <input type="text" name="save" id="save">
                         <span>%</span>

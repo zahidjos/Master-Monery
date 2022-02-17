@@ -1,4 +1,11 @@
 
+#money_account{
+padding: 30px;
+}
+#money_account h1{
+    margin-bottom: 20px;
+}
+
 /* #######################################
 from style start
 ####################################### */
@@ -7,6 +14,9 @@ margin-left: 30px;
 background: #F8F8F8;
 padding-top: 65px ;
 padding-bottom: 35px;
+}
+.input_part .input_section {
+    padding-right: 100px;
 }
 .form_part label{
     font-family: 'Roboto', sans-serif;
@@ -20,7 +30,7 @@ padding-bottom: 35px;
     width: 230px;
     line-height: 43px;
     background: #DCDCDC;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .form_part input:focus-visible{
@@ -38,6 +48,7 @@ border: none;
     font-weight: 700;
     font-size: 20px;
     cursor: pointer;
+   
 
 }
 .form_part h3{
@@ -45,6 +56,7 @@ border: none;
     font-weight: 500;
     font-size: 22px; 
     color: #000000;
+    margin:15px 0;
 }
 #save{
     width: 130px;
@@ -58,3 +70,6 @@ border: none;
 /* #######################################
 from style end
 ####################################### */
+.img_part img {
+    height: 874px;
+}
